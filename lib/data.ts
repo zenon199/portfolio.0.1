@@ -84,7 +84,51 @@ export const skills = [
   },
 ];
 
+export interface Project {
+  title: string;
+  description: string;
+  link?: string;
+  tags?: string[];
+}
 
+export const projects: Project[] = [
+  {
+    title: "Data Hub",
+    description:
+      "A dats storage cloud platform which can produce reels and thumbnails from your raw photos using AI.",
+    link: "https://github.com/zenon199/data-hub",
+    tags: [
+      "TypeScript",
+      "ImageKit",
+      "Clerk",
+      "Next.js",
+      "Drizzle",
+      "AI",
+      "Github",
+    ],
+  },
+
+];
+
+export interface WorkExperience {
+  company: string;
+  logo: string;
+  position: string;
+  description: string;
+  years: string;
+  link?: string;
+}
+
+export const workExperiences: WorkExperience[] = [
+  {
+    company: "KIET",
+    logo: "/kiet.png",
+    position: "Student",
+    description:
+      "Pursuing Computer Science Engineering degree from KIET Group of Institutions, Ghaziabad.",
+    years: "Nov, 2022 - July, 2026",
+  },
+];
 export interface Social {
   name: string;
   link: string;
