@@ -254,7 +254,7 @@ export const websiteMetadata = {
   description: "👋 Hey, Abhishek Yadav here. Welcome to my portfolio.",
   url: "https://abhiworks.site",
   image_url: "https://abhiworks.site/abhi_image.png",
-  logo_url: "https://abhiworks.site/logo.png",
+  logo_url: "https://abhiworks.site/logo.jpg",
   twitterSite: "@_abhii199",
   keywords: [
     "Abhishek Yadav",
