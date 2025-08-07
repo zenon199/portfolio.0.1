@@ -95,7 +95,7 @@ export const projects: Project[] = [
   {
     title: "Data Hub",
     description:
-      "A data storage cloud platform which can produce reels and thumbnails from your raw photos using AI.",
+      "A data storage platform which can produce reels and thumbnails from your raw videos/photos using AI.",
     link: "https://github.com/zenon199/data-hub",
     tags: [
       
@@ -105,6 +105,63 @@ export const projects: Project[] = [
       "Next.js",
       "TypeScript",
       "AI",
+      "Github",
+    ],
+  },
+  {
+    title: "Groove Up",
+    description:
+      "A music streaming platform where users can decide the next playing song by upvoting.",
+    link: "https://github.com/zenon199/grooveup",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Prisma",
+      "Github",
+    ],
+  },
+  {
+    title: "Code Lab",
+    description:
+      "A platform for students and developers to practise and enhance DSA solving skills. The admin can host contests and puts a subscription model for users.",
+    link: "https://github.com/zenon199/code-lab",
+    tags: [
+      "React",
+      "Expess",
+      "TypeScript",
+      "Tailwind",
+      "Prisma",
+      "Docker",
+      "Razorpay",
+      "Github",
+    ],
+  },
+  {
+    title: "Neuro Note",
+    description:
+      "A web application where users can save their tweets, posts etc and can chat later from it using AI. The responses are generated using your previous whole data.",
+    link: "https://github.com/zenon199/neuro-note",
+    tags: [
+      "React",
+      "Expess",
+      "TypeScript",
+      "Tailwind",
+      "Vector DB",
+      "OpenAI",
+      "Github",
+    ],
+  },
+  {
+    title: "Track Tube",
+    description:
+      "A website where users can add YouTube playlists and can track their progress. It helps users to complete their learning journey using streaks and points system.",
+    link: "https://github.com/zenon199/track-tube",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Prisma",
       "Github",
     ],
   },
@@ -193,11 +250,11 @@ export const marketingHeadlines = {
 };
 
 export const websiteMetadata = {
-  title: "Abhishek | FullStack Dev",
+  title: "Abhishek Yadav | Full Stack Developer",
   description: "👋 Hey, Abhishek Yadav here. Welcome to my portfolio.",
   url: "https://abhiworks.site",
   image_url: "https://abhiworks.site/abhi_image.png",
-  logo_url: "https://abhiworks.site/logo.jpg",
+  logo_url: "https://abhiworks.site/logo.png",
   twitterSite: "@_abhii199",
   keywords: [
     "Abhishek Yadav",
