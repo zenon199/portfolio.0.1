@@ -95,19 +95,20 @@ export const projects: Project[] = [
   {
     title: "Data Hub",
     description:
-      "A dats storage cloud platform which can produce reels and thumbnails from your raw photos using AI.",
+      "A data storage cloud platform which can produce reels and thumbnails from your raw photos using AI.",
     link: "https://github.com/zenon199/data-hub",
     tags: [
-      "TypeScript",
+      
       "ImageKit",
       "Clerk",
-      "Next.js",
       "Drizzle",
+      "Next.js",
+      "TypeScript",
       "AI",
       "Github",
     ],
   },
-
+  
 ];
 
 export interface WorkExperience {
@@ -121,13 +122,29 @@ export interface WorkExperience {
 
 export const workExperiences: WorkExperience[] = [
   {
+    company: "Freelance",
+    logo: "/skeleton.jpg",
+    position: "Full Stack Developer",
+    description:
+      "Worked on a Clothing brand website to increase their online presence and sales.",
+    years: "Dec, 2024 - Jan, 2025",
+  },
+  {
+    company: "TBI",
+    logo: "/tbi.png",
+    position: "Backend Developer",
+    description:
+      "Worked on backend services and developed various APIs for the internal Employee management tools.",
+    years: "Oct, 2024 - Dec, 2024",
+  },
+  {
     company: "KIET",
     logo: "/kiet.png",
     position: "Student",
     description:
       "Pursuing Computer Science Engineering degree from KIET Group of Institutions, Ghaziabad.",
     years: "Nov, 2022 - July, 2026",
-  },
+  }
 ];
 export interface Social {
   name: string;
