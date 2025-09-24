@@ -1,25 +1,25 @@
+import { IconType } from "react-icons";
+import { BiLogoPostgresql } from "react-icons/bi";
 import {
-  SiTypescript,
+  SiCss3,
+  SiDocker,
+  SiExpress,
+  SiFirebase,
+  SiGit,
+  SiGithub,
+  SiHtml5,
   SiJavascript,
-  SiReact,
+  SiLinkedin,
+  SiMongodb,
   SiNextdotjs,
   SiNodedotjs,
-  SiExpress,
-  SiMongodb,
-  SiHtml5,
-  SiCss3,
-  SiFirebase,
+  SiReact,
   SiRedux,
-  SiGit,
-  SiDocker,
   SiTailwindcss,
-  SiTwitter,
-  SiGithub,
-  SiLinkedin,
   SiTelegram,
+  SiTwitter,
+  SiTypescript,
 } from "react-icons/si";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { IconType } from "react-icons";
 
 export const skills = [
   {
@@ -179,6 +179,14 @@ export interface WorkExperience {
 
 export const workExperiences: WorkExperience[] = [
   {
+    company: "Barter Now",
+    logo: "/BarterNow.png",
+    position: "Full Stack Developer",
+    description:
+      "Working on the frontend and backend of the Barter Now platform, enhancing user experience for Event Organizers and Attendees.",
+    years: "Sep, 2024 - Present",
+  },
+  {
     company: "Freelance",
     logo: "/skeleton.jpg",
     position: "Full Stack Developer",
@@ -235,7 +243,7 @@ export const socials: Social[] = [
 export const aboutYou = {
   name: "Abhishek Yadav",
   description:
-    "👋 Hi, I'm Abhishek. Full Stack Developer. I've been developing amazing web aaps end to end for a long time. Creating impact by coding! ",
+    "👋 Hi, I’m Abhishek. GenAi & Full Stack Developer with a knack for building web applications end-to-end — from intuitive frontends to robust backends. Over time, I’ve worked across multiple stacks, crafting solutions that are impactful and scalable! ",
   yearsOfExperience: "1+ years",
   location: "Delhi, India",
   email: "abhii199works@gmail.com",
@@ -248,7 +256,6 @@ export const marketingHeadlines = {
   mainHeadline: "Hi There 👋",
   subHeadline: "Eat. Sleep. Code. Repeat.",
 };
-
 export const websiteMetadata = {
   title: "Abhishek Yadav | Full Stack Developer",
   description: "👋 Hey, Abhishek Yadav here. Welcome to my portfolio.",
