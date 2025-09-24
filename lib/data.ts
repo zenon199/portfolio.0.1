@@ -93,6 +93,22 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Code Lab(In Progress)",
+    description:
+      "A platform for students and developers to practise and enhance DSA solving skills. The admin can host contests and puts a subscription model for users.",
+    link: "https://github.com/zenon199/code-lab",
+    tags: [
+      "React",
+      "Expess",
+      "TypeScript",
+      "Tailwind",
+      "Prisma",
+      "Docker",
+      "Razorpay",
+      "Github",
+    ],
+  },
+  {
     title: "Data Hub",
     description:
       "A data storage platform which can produce reels and thumbnails from your raw videos/photos using AI.",
@@ -118,22 +134,6 @@ export const projects: Project[] = [
       "TypeScript",
       "Tailwind",
       "Prisma",
-      "Github",
-    ],
-  },
-  {
-    title: "Code Lab",
-    description:
-      "A platform for students and developers to practise and enhance DSA solving skills. The admin can host contests and puts a subscription model for users.",
-    link: "https://github.com/zenon199/code-lab",
-    tags: [
-      "React",
-      "Expess",
-      "TypeScript",
-      "Tailwind",
-      "Prisma",
-      "Docker",
-      "Razorpay",
       "Github",
     ],
   },
